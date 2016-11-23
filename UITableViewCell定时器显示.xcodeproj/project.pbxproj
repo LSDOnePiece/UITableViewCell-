@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAF55ED61DE430F500B01F09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF55ED51DE430F500B01F09 /* main.m */; };
+		EAF55ED91DE430F500B01F09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF55ED81DE430F500B01F09 /* AppDelegate.m */; };
+		EAF55EDC1DE430F500B01F09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF55EDB1DE430F500B01F09 /* ViewController.m */; };
+		EAF55EDF1DE430F500B01F09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF55EDD1DE430F500B01F09 /* Main.storyboard */; };
+		EAF55EE11DE430F500B01F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF55EE01DE430F500B01F09 /* Assets.xcassets */; };
+		EAF55EE41DE430F500B01F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF55EE21DE430F500B01F09 /* LaunchScreen.storyboard */; };
+		EAF55EEF1DE430F600B01F09 /* UITableViewCell_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF55EEE1DE430F600B01F09 /* UITableViewCell_____Tests.m */; };
+		EAF55EFA1DE430F600B01F09 /* UITableViewCell_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF55EF91DE430F600B01F09 /* UITableViewCell_____UITests.m */; };
+		EAF55F091DE43BD700B01F09 /* LSDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF55F081DE43BD700B01F09 /* LSDTableViewCell.m */; };
+		EAF55F0B1DE43BEF00B01F09 /* LSDTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAF55F0A1DE43BEF00B01F09 /* LSDTableViewCell.xib */; };
+		EAF55F0E1DE43EAD00B01F09 /* LSDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF55F0D1DE43EAD00B01F09 /* LSDModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAF55EEB1DE430F600B01F09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF55EC91DE430F500B01F09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF55ED01DE430F500B01F09;
+			remoteInfo = "UITableViewCell定时器显示";
+		};
+		EAF55EF61DE430F600B01F09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF55EC91DE430F500B01F09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF55ED01DE430F500B01F09;
+			remoteInfo = "UITableViewCell定时器显示";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAF55ED11DE430F500B01F09 /* UITableViewCell定时器显示.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableViewCell定时器显示.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF55ED51DE430F500B01F09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAF55ED71DE430F500B01F09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAF55ED81DE430F500B01F09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAF55EDA1DE430F500B01F09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAF55EDB1DE430F500B01F09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAF55EDE1DE430F500B01F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAF55EE01DE430F500B01F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAF55EE31DE430F500B01F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAF55EE51DE430F500B01F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF55EEA1DE430F600B01F09 /* UITableViewCell定时器显示Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewCell定时器显示Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF55EEE1DE430F600B01F09 /* UITableViewCell_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell_____Tests.m"; sourceTree = "<group>"; };
+		EAF55EF01DE430F600B01F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF55EF51DE430F600B01F09 /* UITableViewCell定时器显示UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewCell定时器显示UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF55EF91DE430F600B01F09 /* UITableViewCell_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell_____UITests.m"; sourceTree = "<group>"; };
+		EAF55EFB1DE430F600B01F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF55F071DE43BD700B01F09 /* LSDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDTableViewCell.h; sourceTree = "<group>"; };
+		EAF55F081DE43BD700B01F09 /* LSDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDTableViewCell.m; sourceTree = "<group>"; };
+		EAF55F0A1DE43BEF00B01F09 /* LSDTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDTableViewCell.xib; sourceTree = "<group>"; };
+		EAF55F0C1DE43EAD00B01F09 /* LSDModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDModel.h; sourceTree = "<group>"; };
+		EAF55F0D1DE43EAD00B01F09 /* LSDModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAF55ECE1DE430F500B01F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF55EE71DE430F600B01F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF55EF21DE430F600B01F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAF55EC81DE430F500B01F09 = {
+			isa = PBXGroup;
+			children = (
+				EAF55ED31DE430F500B01F09 /* UITableViewCell定时器显示 */,
+				EAF55EED1DE430F600B01F09 /* UITableViewCell定时器显示Tests */,
+				EAF55EF81DE430F600B01F09 /* UITableViewCell定时器显示UITests */,
+				EAF55ED21DE430F500B01F09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAF55ED21DE430F500B01F09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAF55ED11DE430F500B01F09 /* UITableViewCell定时器显示.app */,
+				EAF55EEA1DE430F600B01F09 /* UITableViewCell定时器显示Tests.xctest */,
+				EAF55EF51DE430F600B01F09 /* UITableViewCell定时器显示UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAF55ED31DE430F500B01F09 /* UITableViewCell定时器显示 */ = {
+			isa = PBXGroup;
+			children = (
+				EAF55ED71DE430F500B01F09 /* AppDelegate.h */,
+				EAF55ED81DE430F500B01F09 /* AppDelegate.m */,
+				EAF55EDA1DE430F500B01F09 /* ViewController.h */,
+				EAF55EDB1DE430F500B01F09 /* ViewController.m */,
+				EAF55F0C1DE43EAD00B01F09 /* LSDModel.h */,
+				EAF55F0D1DE43EAD00B01F09 /* LSDModel.m */,
+				EAF55F071DE43BD700B01F09 /* LSDTableViewCell.h */,
+				EAF55F081DE43BD700B01F09 /* LSDTableViewCell.m */,
+				EAF55F0A1DE43BEF00B01F09 /* LSDTableViewCell.xib */,
+				EAF55EDD1DE430F500B01F09 /* Main.storyboard */,
+				EAF55EE01DE430F500B01F09 /* Assets.xcassets */,
+				EAF55EE21DE430F500B01F09 /* LaunchScreen.storyboard */,
+				EAF55EE51DE430F500B01F09 /* Info.plist */,
+				EAF55ED41DE430F500B01F09 /* Supporting Files */,
+			);
+			path = "UITableViewCell定时器显示";
+			sourceTree = "<group>";
+		};
+		EAF55ED41DE430F500B01F09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF55ED51DE430F500B01F09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAF55EED1DE430F600B01F09 /* UITableViewCell定时器显示Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF55EEE1DE430F600B01F09 /* UITableViewCell_____Tests.m */,
+				EAF55EF01DE430F600B01F09 /* Info.plist */,
+			);
+			path = "UITableViewCell定时器显示Tests";
+			sourceTree = "<group>";
+		};
+		EAF55EF81DE430F600B01F09 /* UITableViewCell定时器显示UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF55EF91DE430F600B01F09 /* UITableViewCell_____UITests.m */,
+				EAF55EFB1DE430F600B01F09 /* Info.plist */,
+			);
+			path = "UITableViewCell定时器显示UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAF55ED01DE430F500B01F09 /* UITableViewCell定时器显示 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF55EFE1DE430F600B01F09 /* Build configuration list for PBXNativeTarget "UITableViewCell定时器显示" */;
+			buildPhases = (
+				EAF55ECD1DE430F500B01F09 /* Sources */,
+				EAF55ECE1DE430F500B01F09 /* Frameworks */,
+				EAF55ECF1DE430F500B01F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableViewCell定时器显示";
+			productName = "UITableViewCell定时器显示";
+			productReference = EAF55ED11DE430F500B01F09 /* UITableViewCell定时器显示.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAF55EE91DE430F600B01F09 /* UITableViewCell定时器显示Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF55F011DE430F600B01F09 /* Build configuration list for PBXNativeTarget "UITableViewCell定时器显示Tests" */;
+			buildPhases = (
+				EAF55EE61DE430F600B01F09 /* Sources */,
+				EAF55EE71DE430F600B01F09 /* Frameworks */,
+				EAF55EE81DE430F600B01F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF55EEC1DE430F600B01F09 /* PBXTargetDependency */,
+			);
+			name = "UITableViewCell定时器显示Tests";
+			productName = "UITableViewCell定时器显示Tests";
+			productReference = EAF55EEA1DE430F600B01F09 /* UITableViewCell定时器显示Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAF55EF41DE430F600B01F09 /* UITableViewCell定时器显示UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF55F041DE430F600B01F09 /* Build configuration list for PBXNativeTarget "UITableViewCell定时器显示UITests" */;
+			buildPhases = (
+				EAF55EF11DE430F600B01F09 /* Sources */,
+				EAF55EF21DE430F600B01F09 /* Frameworks */,
+				EAF55EF31DE430F600B01F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF55EF71DE430F600B01F09 /* PBXTargetDependency */,
+			);
+			name = "UITableViewCell定时器显示UITests";
+			productName = "UITableViewCell定时器显示UITests";
+			productReference = EAF55EF51DE430F600B01F09 /* UITableViewCell定时器显示UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAF55EC91DE430F500B01F09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = OnePiece;
+				TargetAttributes = {
+					EAF55ED01DE430F500B01F09 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5TW33LD29W;
+						ProvisioningStyle = Manual;
+					};
+					EAF55EE91DE430F600B01F09 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAF55ED01DE430F500B01F09;
+					};
+					EAF55EF41DE430F600B01F09 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAF55ED01DE430F500B01F09;
+					};
+				};
+			};
+			buildConfigurationList = EAF55ECC1DE430F500B01F09 /* Build configuration list for PBXProject "UITableViewCell定时器显示" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAF55EC81DE430F500B01F09;
+			productRefGroup = EAF55ED21DE430F500B01F09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAF55ED01DE430F500B01F09 /* UITableViewCell定时器显示 */,
+				EAF55EE91DE430F600B01F09 /* UITableViewCell定时器显示Tests */,
+				EAF55EF41DE430F600B01F09 /* UITableViewCell定时器显示UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAF55ECF1DE430F500B01F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF55EE41DE430F500B01F09 /* LaunchScreen.storyboard in Resources */,
+				EAF55EE11DE430F500B01F09 /* Assets.xcassets in Resources */,
+				EAF55EDF1DE430F500B01F09 /* Main.storyboard in Resources */,
+				EAF55F0B1DE43BEF00B01F09 /* LSDTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF55EE81DE430F600B01F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF55EF31DE430F600B01F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAF55ECD1DE430F500B01F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF55EDC1DE430F500B01F09 /* ViewController.m in Sources */,
+				EAF55F0E1DE43EAD00B01F09 /* LSDModel.m in Sources */,
+				EAF55ED91DE430F500B01F09 /* AppDelegate.m in Sources */,
+				EAF55ED61DE430F500B01F09 /* main.m in Sources */,
+				EAF55F091DE43BD700B01F09 /* LSDTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF55EE61DE430F600B01F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF55EEF1DE430F600B01F09 /* UITableViewCell_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF55EF11DE430F600B01F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF55EFA1DE430F600B01F09 /* UITableViewCell_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAF55EEC1DE430F600B01F09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF55ED01DE430F500B01F09 /* UITableViewCell定时器显示 */;
+			targetProxy = EAF55EEB1DE430F600B01F09 /* PBXContainerItemProxy */;
+		};
+		EAF55EF71DE430F600B01F09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF55ED01DE430F500B01F09 /* UITableViewCell定时器显示 */;
+			targetProxy = EAF55EF61DE430F600B01F09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAF55EDD1DE430F500B01F09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF55EDE1DE430F500B01F09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAF55EE21DE430F500B01F09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF55EE31DE430F500B01F09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAF55EFC1DE430F600B01F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhihong Huang (KY3LV96SWX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhihong Huang (KY3LV96SWX)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAF55EFD1DE430F600B01F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhihong Huang (KY3LV96SWX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhihong Huang (KY3LV96SWX)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAF55EFF1DE430F600B01F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5TW33LD29W;
+				INFOPLIST_FILE = "UITableViewCell定时器显示/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szrd.jianyunbao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1ef02e6a-b4f7-43da-8c50-db157159fe30";
+				PROVISIONING_PROFILE_SPECIFIER = zuixin_baobao;
+			};
+			name = Debug;
+		};
+		EAF55F001DE430F600B01F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5TW33LD29W;
+				INFOPLIST_FILE = "UITableViewCell定时器显示/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szrd.jianyunbao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1ef02e6a-b4f7-43da-8c50-db157159fe30";
+				PROVISIONING_PROFILE_SPECIFIER = zuixin_baobao;
+			};
+			name = Release;
+		};
+		EAF55F021DE430F600B01F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITableViewCell定时器显示Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OnePiece.UITableViewCell-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableViewCell定时器显示.app/UITableViewCell定时器显示";
+			};
+			name = Debug;
+		};
+		EAF55F031DE430F600B01F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITableViewCell定时器显示Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OnePiece.UITableViewCell-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableViewCell定时器显示.app/UITableViewCell定时器显示";
+			};
+			name = Release;
+		};
+		EAF55F051DE430F600B01F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITableViewCell定时器显示UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OnePiece.UITableViewCell-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITableViewCell定时器显示";
+			};
+			name = Debug;
+		};
+		EAF55F061DE430F600B01F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITableViewCell定时器显示UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OnePiece.UITableViewCell-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITableViewCell定时器显示";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAF55ECC1DE430F500B01F09 /* Build configuration list for PBXProject "UITableViewCell定时器显示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF55EFC1DE430F600B01F09 /* Debug */,
+				EAF55EFD1DE430F600B01F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF55EFE1DE430F600B01F09 /* Build configuration list for PBXNativeTarget "UITableViewCell定时器显示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF55EFF1DE430F600B01F09 /* Debug */,
+				EAF55F001DE430F600B01F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF55F011DE430F600B01F09 /* Build configuration list for PBXNativeTarget "UITableViewCell定时器显示Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF55F021DE430F600B01F09 /* Debug */,
+				EAF55F031DE430F600B01F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF55F041DE430F600B01F09 /* Build configuration list for PBXNativeTarget "UITableViewCell定时器显示UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF55F051DE430F600B01F09 /* Debug */,
+				EAF55F061DE430F600B01F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAF55EC91DE430F500B01F09 /* Project object */;
+}
